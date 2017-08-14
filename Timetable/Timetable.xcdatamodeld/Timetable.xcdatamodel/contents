@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="TBUser" representedClassName="TBUser" syncable="YES">
+        <attribute name="device_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_login" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_ticket" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verify" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TBUser" positionX="-63" positionY="-18" width="128" height="163"/>
+    </elements>
+</model>
