@@ -94,9 +94,9 @@
 		6BDD198B1F4156E30026B10E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				6BDD198F1F41934C0026B10E /* Objects */,
 				6BDD198C1F4157220026B10E /* DataManager.h */,
 				6BDD198D1F4157220026B10E /* DataManager.m */,
+				6BDD198F1F41934C0026B10E /* Objects */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -356,6 +356,7 @@
 				6BDD198A1F413CEF0026B10E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
