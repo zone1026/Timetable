@@ -20,7 +20,21 @@
                     <view key="view" contentMode="scaleToFill" id="i7x-pK-0AO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaP-HS-XzG">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bn6-qQ-LQU"/>
+                                    <constraint firstAttribute="width" constant="46" id="toM-PV-EhO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zaP-HS-XzG" firstAttribute="centerX" secondItem="i7x-pK-0AO" secondAttribute="centerX" id="WtJ-JB-JUS"/>
+                            <constraint firstItem="zaP-HS-XzG" firstAttribute="centerY" secondItem="i7x-pK-0AO" secondAttribute="centerY" id="ndA-tw-mzK"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="重复" image="tab_btn_repeat_normal" selectedImage="tab_btn_repeat_selected" id="9aP-2J-UQe"/>
                 </viewController>
@@ -48,7 +62,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vhJ-c6-KWD" id="XcU-sv-oIH">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
